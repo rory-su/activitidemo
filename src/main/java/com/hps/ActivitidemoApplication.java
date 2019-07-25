@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 @SpringBootApplication(exclude = {org.activiti.spring.boot.SecurityAutoConfiguration.class,SecurityAutoConfiguration.class})
 @MapperScan("com.hps.dao")
 public class ActivitidemoApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ActivitidemoApplication.class, args);
     }
