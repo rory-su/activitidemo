@@ -35,7 +35,7 @@ public class ActivitidemoApplicationTests extends ActivitiTestCase {
     @Deployment
     public void tese1(){
         IdentityService identityService= processEngine.getIdentityService();
-        org.activiti.engine.identity.User user=identityService.newUser("3");
+        org.activiti.engine.identity.User user=identityService.newUser("test");
         user.setFirstName("su");
         user.setLastName("jinquan");
         user.setEmail("133232@qq.com");
